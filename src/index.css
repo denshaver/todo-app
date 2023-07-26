@@ -326,6 +326,7 @@ main {
 
   .main-wrapper {
     position: relative;
+    height: 90vh;
   }
 
   aside {
@@ -376,6 +377,7 @@ main {
   main {
     width: 100%;
     padding: 40px 7% 10px 7%;
+    height: 90vh;
   }
 
   /* ! ------------------ ! */
@@ -449,5 +451,22 @@ main {
   .checkmark:after {
     width: 16px;
     height: 16px;
+  }
+
+  .categories-form {
+    width: 100%;
+    min-width: unset;
+    padding: 5px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+  }
+
+  .categories-form > input {
+    flex-grow: 1;
+    border: none;
+    /* flex-grow: 1; */
+    padding: 5px 10px 5px 5px;
+    background-color: unset;
+    outline: none;
   }
 }
