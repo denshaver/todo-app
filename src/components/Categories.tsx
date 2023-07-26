@@ -10,7 +10,7 @@ const Categories: FC = () => {
   const [addMode, setAddMode] = useState<boolean>(false);
   const [categoryInput, setCategoryInput] = useState<string>("");
   const [categoriesState, categoriesDispatch] = useCategories();
-  const [menuIsOpened, setMenuIsOpened] = useState<boolean>(true);
+  const [menuIsOpened, setMenuIsOpened] = useState<boolean>(false);
   // Refs
   const inputRef = useRef<HTMLInputElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
